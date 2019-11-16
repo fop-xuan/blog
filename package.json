@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-blog",
+  "version": "1.0.0",
+  "description": "My groundbreaking Nuxt.js project",
+  "author": "fop-xuan",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.6.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.9.1",
+    "highlight.js": "^9.15.10",
+    "jsencrypt": "^3.0.0-rc.1",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-generic-session": "^2.0.1",
+    "koa-redis": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "marked": "^0.7.0",
+    "mavon-editor": "^2.7.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.12",
+    "node-rsa": "^1.0.5",
+    "nuxt": "^2.0.0",
+    "qiniu": "^7.2.2",
+    "vue-particles": "^1.0.9"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "nodemon": "^1.18.9"
+  }
+}
