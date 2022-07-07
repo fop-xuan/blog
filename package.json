@@ -25,7 +25,7 @@
     "less-loader": "^5.0.0",
     "marked": "^0.7.0",
     "mavon-editor": "^2.7.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.6.12",
     "node-rsa": "^1.0.5",
     "nuxt": "^2.0.0",
